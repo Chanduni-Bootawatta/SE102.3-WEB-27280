@@ -1,0 +1,66 @@
+<html>
+<head>
+
+
+<style>
+.mydiv {border:2px outset  black;
+         width:550px;
+        height:150px;
+       text-align:center;
+
+}
+</style>
+
+</head>
+<body>
+
+<center>
+<div class="mydiv">
+<h1>Application Form</h1>
+<h2>Position:<span style="color:red"> Software Engineer</span></h2>
+</div>
+
+<form="Application form"method="post" action="new.php">
+<table>
+<tr>
+
+<br><br>
+<td><lable for="name">Name:</lable></td>
+<td><input type="text" id="name" name="name" requied></td>
+</tr>
+<tr>
+<td><lable for="birthday">Birthday:</lable></td>
+<td><input type="text" id="birthday" name="birthday" requied></td>
+</tr>
+<tr>
+<td><lable for="phonenumber">Phone Number:</lable></td>
+<td><input type="text" id="phonenumber" name="phonenumber" requied></td>
+</tr>
+<tr>
+<td><lable for="Gender">Gender:</lable></td>
+<td><input type="radio" name="gen" value="Female">Female 
+<input type="radio" name="gen" value="Male">Male</td>
+</tr>
+<tr>
+<td><lable for="High Level of Education">High level of Education:</lable></td>
+<td><select name="f">
+<option value="0"> Master Degree</option>
+<option value="1">PHD</option>
+</select></td>
+</tr>
+<br><tr>
+<td><lable for="CV:">CV:</lable>
+<input type="button"name="c" value="choose file">
+<label for="text">No file choosen</label> </td>
+</tr>
+
+<tr><td><center><input type="checkbox" name="q1" value3="click">
+<a href="webpage">   Terms and Conditions</a></center>
+<br><br><input type="button" name="s" value="submit">
+<input type="button" name="r" value="clear"></td></tr>
+</center>
+</table>
+
+</body>
+
+</html>
