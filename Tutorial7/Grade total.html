@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Grade Calculator</title>
+<script>
+function calculateGrade(){
+ var marks=[];
+ var total=0;
+ 
+for(var i=0;i<5;i++){
+ var mark=parseInt(prompt("Enter Mark"+(i+1)+":"));
+
+marks[i]=mark;
+total=total+mark;
+}
+
+var avg=total/5;
+{ document.write("Sum is:"+total);
+}
+document.write("<br>");
+{document.write("AVG is:"+avg);
+}
+
+if(avg>30){
+alert("Congrats!");
+}
+else
+{alert("Better luck next time!");
+}
+}
+</script>
+</head>
+<body>
+<button onClick="calculateGrade()">Grade</button>
+</body>
+</html>
